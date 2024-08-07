@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Dosis';
+    src: url(fonts/Dosis-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'PatrickHand';
+    src: url(fonts/PatrickHand-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'RubikMonoOne';
+    src: url(fonts/RubikMonoOne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Sarabun';
+    src: url(fonts/Sarabun-Regular.ttf) format('truetype');
+}
+
+#title {
+    font-family: 'RubikMonoOne', fantasy;
+    font-weight: 1;
+}
+
+#name {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+
+#name, #title {
+    color:rgb(0, 0, 0);
+    background-color: rgb(96, 165, 255);
+    border: 3px solid rgb(13, 13, 124);
+    border-radius: 90px;
+    padding: 5px 15px;
+    display: inline-block;
+    margin: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+.albums {
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.images {
+    float: right;
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.list {
+    text-align: left;
+}
+
+.left-text {
+    max-width: 100%;
+    height: auto;
+}
+
+.headings {
+    font-family: 'Dosis';
+    font-weight: 1000;
+}
+
+p, ol {
+    font-family: 'Sarabun';
+}
