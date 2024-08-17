@@ -78,7 +78,7 @@ p, ol {
     font-family: 'Sarabun';
 }
 
-.album-ranking {
+.albums-ranking {
     overflow: scroll;
     overflow-x: hidden;
     height: 300px;
@@ -90,12 +90,12 @@ p, ol {
     border-radius: 10px;
 }
 
-#album-ranking-title {
+#albums-ranking-title {
     text-align: center;
     font-family: 'Dosis'
 }
 
-#album-ranks {
+#albums-ranks {
     font-family: 'Sarabun';
     font-weight: 400;
 }
