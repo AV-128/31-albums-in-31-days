@@ -18,6 +18,10 @@
     src: url(fonts/Sarabun-Regular.ttf) format('truetype');
 }
 
+* {
+    box-sizing: border-box;
+}
+
 #title {
     font-family: 'RubikMonoOne', fantasy;
     font-weight: 1;
