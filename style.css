@@ -83,24 +83,33 @@ p, ol {
     font-family: 'Sarabun';
 }
 
-.albums-ranking {
+#albums-ranking, #updated-albums-ranking {
     overflow: scroll;
     overflow-x: hidden;
-    height: 300px;
+    height: 500px;
     width: 90%;
     margin: auto;
+    margin-bottom: 15px;
     list-style-position: inside;
     font-family: 'RubikMonoOne';
     border: 3px solid black;
     border-radius: 10px;
 }
 
-#albums-ranking-title {
+.albums-ranking-title {
     text-align: center;
     font-family: 'Dosis'
 }
 
-#albums-ranks {
+.albums-ranks {
     font-family: 'Sarabun';
     font-weight: 400;
+}
+
+.positive {
+    color: #1c720b;
+}
+
+.negative {
+    color: #e70808;
 }
