@@ -98,7 +98,7 @@ p, ol {
 
 .rankings {
     display: flex;
-    gap: 1%;
+    gap: 10px;
     margin-left: 5%;
     margin-right: 5%;
 }
