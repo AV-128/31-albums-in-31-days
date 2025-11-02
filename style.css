@@ -89,7 +89,7 @@ p, ol {
     height: 500px;
     width: 90%;
     margin: auto;
-    margin-bottom: 1%;
+    margin-bottom: 0px;
     list-style-position: inside;
     font-family: 'RubikMonoOne';
     border: 3px solid black;
